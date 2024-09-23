@@ -100,7 +100,11 @@
       "MOVE_CURSE"
     ],
     "EggMoves": [
+      "MOVE_CHARM",
       "MOVE_PETAL_DANCE",
+      "MOVE_LIGHT_SCREEN"
+      "MOVE_SAFEGUARD",
+      "MOVE_POWER_WHIP",
       "MOVE_TOXIC",
       "MOVE_CURSE",
       "MOVE_INGRAIN"
@@ -438,6 +442,9 @@
       "MOVE_ANCIENT_POWER",
       "MOVE_BELLY_DRUM",
       "MOVE_BITE",
+      "MOVE_CRUNCH",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DRAGON_BREATH",
       "MOVE_COUNTER",
       "MOVE_DRAGON_RUSH",
       "MOVE_DRAGON_TAIL",
@@ -541,16 +548,7 @@
       "MOVE_TEMPER_FLARE",
       "MOVE_BREAKING_SWIPE"
     ],
-    "EggMoves": [
-      "MOVE_ANCIENT_POWER",
-      "MOVE_BELLY_DRUM",
-      "MOVE_BITE",
-      "MOVE_COUNTER",
-      "MOVE_DRAGON_RUSH",
-      "MOVE_DRAGON_TAIL",
-      "MOVE_IRON_TAIL",
-      "MOVE_METAL_CLAW"
-    ],
+    "EggMoves": [],
     "TutorMoves": []
   },
   "CHARIZARD": {
@@ -680,16 +678,7 @@
       "MOVE_BREAKING_SWIPE",
       "MOVE_DRAGON_CHEER"
     ],
-    "EggMoves": [
-      "MOVE_ANCIENT_POWER",
-      "MOVE_BELLY_DRUM",
-      "MOVE_BITE",
-      "MOVE_COUNTER",
-      "MOVE_DRAGON_RUSH",
-      "MOVE_DRAGON_TAIL",
-      "MOVE_IRON_TAIL",
-      "MOVE_METAL_CLAW"
-    ],
+    "EggMoves": [],
     "TutorMoves": []
   },
   "SQUIRTLE": {
@@ -791,6 +780,9 @@
       "MOVE_MUDDY_WATER"
     ],
     "EggMoves": [
+      "MOVE_CONFUSION",
+      "MOVE_CRUNCH",
+      "MOVE_HAZE",
       "MOVE_MIST",
       "MOVE_FLAIL",
       "MOVE_MIRROR_COAT",
@@ -12811,8 +12803,16 @@
         "Move": "MOVE_GROWL"
       },
       {
+        "Level": 5,
+        "Move": "MOVE_SWEET_SCENT"
+      },
+      {
         "Level": 6,
         "Move": "MOVE_RAZOR_LEAF"
+      },
+      {
+        "Level": 7,
+        "Move": "MOVE_FAIRY_WIND"
       },
       {
         "Level": 9,
@@ -12821,6 +12821,10 @@
       {
         "Level": 12,
         "Move": "MOVE_SYNTHESIS"
+      },
+      {
+        "Level": 14,
+        "Move": "MOVE_SWEET_KISS"
       },
       {
         "Level": 17,
@@ -12836,7 +12840,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_SWEET_SCENT"
+        "Move": "MOVE_DRAINING_KISS"
       },
       {
         "Level": 31,
@@ -12917,7 +12921,15 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_SWEET_SCENT"
+      },
+      {
+        "Level": 1,
         "Move": "MOVE_RAZOR_LEAF"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FAIRY_WIND"
       },
       {
         "Level": 1,
@@ -12926,6 +12938,10 @@
       {
         "Level": 12,
         "Move": "MOVE_SYNTHESIS"
+      },
+      {
+        "Level": 15,
+        "Move": "MOVE_SWEET_KISS"
       },
       {
         "Level": 18,
@@ -12941,7 +12957,7 @@
       },
       {
         "Level": 32,
-        "Move": "MOVE_SWEET_SCENT"
+        "Move": "MOVE_DRAINING_KISS"
       },
       {
         "Level": 36,
@@ -13013,6 +13029,10 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_FLORAL_HEALING"
+      },
+      {
+        "Level": 1,
         "Move": "MOVE_TACKLE"
       },
       {
@@ -13021,7 +13041,15 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_SWEET_SCENT"
+      },
+      {
+        "Level": 1,
         "Move": "MOVE_RAZOR_LEAF"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FAIRY_WIND"
       },
       {
         "Level": 1,
@@ -13034,6 +13062,10 @@
       {
         "Level": 12,
         "Move": "MOVE_SYNTHESIS"
+      },
+      {
+        "Level": 15,
+        "Move": "MOVE_SWEET_KISS"
       },
       {
         "Level": 18,
@@ -13049,7 +13081,11 @@
       },
       {
         "Level": 34,
-        "Move": "MOVE_SWEET_SCENT"
+        "Move": "MOVE_DRAINING_KISS"
+      },
+      {
+        "Level": 37,
+        "Move": "MOVE_STRENGTH_SAP"
       },
       {
         "Level": 40,
@@ -13058,6 +13094,10 @@
       {
         "Level": 46,
         "Move": "MOVE_BODY_SLAM"
+      },
+      {
+        "Level": 50,
+        "Move": "MOVE_MOONBLAST"
       },
       {
         "Level": 54,
@@ -13356,6 +13396,10 @@
   "TYPHLOSION": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_ERUPTION"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_TACKLE"
       },
@@ -13373,15 +13417,11 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_GYRO_BALL"
+        "Move": "MOVE_EARTH_POWER"
       },
       {
         "Level": 1,
         "Move": "MOVE_SMOKESCREEN"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_ERUPTION"
       },
       {
         "Level": 13,
@@ -16809,12 +16849,24 @@
   "SUNFLORA": {
     "LevelMoves": [
       {
-        "Level": 1,
-        "Move": "MOVE_POUND"
+        "Level": 0,
+        "Move": "MOVE_FIRE_SPIN"
       },
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_FIRE_SPIN"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FLOWER_SHIELD"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_ABSORB"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_POUND"
       },
       {
         "Level": 1,
@@ -16826,7 +16878,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_ABSORB"
+        "Move": "MOVE_GRASS_WHISTLE"
       },
       {
         "Level": 10,
@@ -16846,11 +16898,15 @@
       },
       {
         "Level": 22,
+        "Move": "MOVE_SUNNY_DAY"
+      },
+      {
+        "Level": 22,
         "Move": "MOVE_GIGA_DRAIN"
       },
       {
         "Level": 25,
-        "Move": "MOVE_BULLET_SEED"
+        "Move": "MOVE_FIERY_DANCE"
       },
       {
         "Level": 28,
@@ -16858,11 +16914,11 @@
       },
       {
         "Level": 31,
-        "Move": "MOVE_SOLAR_BEAM"
+        "Move": "MOVE_FLORAL_HEALING"
       },
       {
         "Level": 34,
-        "Move": "MOVE_DOUBLE_EDGE"
+        "Move": "MOVE_SOLAR_BEAM"
       },
       {
         "Level": 39,
@@ -20442,7 +20498,7 @@
       },
       {
         "Level": 32,
-        "Move": "MOVE_PAYBACK"
+        "Move": "MOVE_SPIKES"
       },
       {
         "Level": 36,
@@ -20450,11 +20506,11 @@
       },
       {
         "Level": 40,
-        "Move": "MOVE_METAL_SOUND"
+        "Move": "MOVE_SWORDS_DANCE"
       },
       {
         "Level": 44,
-        "Move": "MOVE_SPIKES"
+        "Move": "MOVE_CEASELESS_EDGE"
       },
       {
         "Level": 48,
@@ -20510,7 +20566,8 @@
       "MOVE_SAND_TOMB",
       "MOVE_DUAL_WINGBEAT",
       "MOVE_METAL_SOUND",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_DEFOG"
     ],
     "EggMoves": [
       "MOVE_WHIRLWIND",

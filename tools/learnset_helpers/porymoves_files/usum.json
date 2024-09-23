@@ -1617,6 +1617,9 @@
       "MOVE_CONFIDE"
     ],
     "EggMoves": [
+      "MOVE_PECK",
+      "MOVE_CHARM",
+      "MOVE_EXTREME_SPEED",
       "MOVE_AIR_CUTTER",
       "MOVE_AIR_SLASH",
       "MOVE_BRAVE_BIRD",
